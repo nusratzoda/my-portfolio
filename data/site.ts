@@ -4,8 +4,8 @@ export const personal = {
   email: "nusratzodasuhaib@gmail.com",
   telegram: "https://t.me/suhayb_03",
   whatsapp: "https://wa.me/601168770204",
-  github: "https://github.com/YOUR_GITHUB",
-  linkedin: "https://www.linkedin.com/in/YOUR_LINKEDIN",
+  github: "https://github.com/nusratzoda",
+  linkedin: "https://www.linkedin.com/in/suhaib-nusratzoda-a51127257/?trk=opento_sprofile_details",
 };
 
 export const skills = [
