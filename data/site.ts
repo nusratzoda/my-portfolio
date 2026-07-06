@@ -31,7 +31,7 @@ export const projects = [
   {
     title: "LMS & Medical Systems",
     description: "Backend modules for course management, grading, reviews, patient records, medical services and APIs.",
-    stack: ["PHP", "Laravel", "MySQL"],
+    stack: ["PHP", "Laravel", "MySQL","websockets", "REST API", "Docker", "Linux","payment integration"],
   },
   {
     title: "Backend API Development",
