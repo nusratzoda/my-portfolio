@@ -6,7 +6,7 @@ import { personal } from "@/data/site";
 
 export default function Hero() {
   return (
-    <section className="relative px-4 pt-32 sm:px-6 lg:pt-40">
+    <section className="relative overflow-hidden px-5 pt-32 sm:px-6 lg:pt-40">
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-1/2 top-20 h-72 w-72 -translate-x-1/2 rounded-full bg-sky-500/20 blur-3xl" />
         <div className="absolute right-10 top-56 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl" />
@@ -19,7 +19,7 @@ export default function Hero() {
             Available for freelance projects
           </div>
 
-          <h1 className="text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">
+          <h1 className="text-3xl font-black leading-tight sm:text-5xl lg:text-6xl">
             Hi, I&apos;m <span className="gradient-text">Suhaib</span>.
             <br />
             I build scalable APIs and Telegram bots.
@@ -52,13 +52,14 @@ export default function Hero() {
             </div>
           </div>
 
-          <pre className="overflow-x-auto rounded-2xl bg-black/30 p-4 text-sm leading-7 text-slate-300">{`const developer = {
-  name: "Suhaib Matin",
-  role: "Backend Engineer",
-  focus: ["Telegram Bots", "REST APIs"],
-  stack: ["C#", "Python", "PHP", "PostgreSQL"],
-  values: ["Clean Code", "Security", "Scalability"]
-};`}</pre>
+          <pre className="overflow-x-auto break-words whitespace-pre-wrap text-xs sm:text-sm leading-6 sm:leading-7 text-slate-300 bg-black/30 p-4 rounded-2xl">
+          {`const developer = {
+            name: "Suhaib Matin",
+            role: "Backend Engineer",
+            focus: ["Telegram Bots", "REST APIs"],
+            stack: ["C#", "Python", "PHP", "PostgreSQL"],
+            values: ["Clean Code", "Security", "Scalability"]
+          };`}</pre>
         </motion.div>
       </div>
     </section>
