@@ -56,9 +56,9 @@ export default function Hero() {
           {`const developer = {
             name: "Suhaib Matin",
             role: "Backend Engineer",
-            focus: ["Telegram Bots", "REST APIs"],
-            stack: ["C#", "Python", "PHP", "PostgreSQL"],
-            values: ["Clean Code", "Security", "Scalability"]
+            focus: [ "Backend Development", "REST API Engineering","Telegram Bot Development", "Business Process Automation", "Database Architecture", "Cloud Deployment" ],
+            stack: ["C#", "ASP.NET Core", "Python", "PHP Laravel", "PostgreSQL","MySQL", "MongoDB", "Docker", "Linux", "Git"],
+            values: ["Clean Code", "Security", "Scalability", "Maintainability", "Performance", "Reliability"],
           };`}</pre>
         </motion.div>
       </div>

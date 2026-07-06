@@ -9,9 +9,12 @@ export const personal = {
 };
 
 export const skills = [
-  "C#", "ASP.NET Core", "Python", "PHP", "Laravel", "REST API",
-  "PostgreSQL", "MySQL", "MongoDB", "Docker", "Linux", "Git",
-  "Clean Architecture", "SOLID", "Telegram Bots",
+  "C#", "ASP.NET Core", ".NET", "Python", "PHP", "Laravel",
+  "REST API", "PostgreSQL", "MySQL", "MongoDB",
+  "Entity Framework", "Docker", "Linux", "Git", "GitHub", 
+  "Telegram Bot Development", "System Design", "Clean Architecture",
+  "SOLID Principles", "JWT Authentication",
+  "API Integration", "Backend Security"
 ];
 
 export const projects = [
@@ -26,14 +29,14 @@ export const projects = [
     stack: ["Node.js", "PostgreSQL", "Next.js", "Vercel"],
   },
   {
-    title: "Tourist System Backend",
-    description: "Clean Architecture backend for hotels, places, guides, booking, authentication and reviews.",
-    stack: ["ASP.NET Core", "EF Core", "JWT"],
-  },
-  {
     title: "LMS & Medical Systems",
     description: "Backend modules for course management, grading, reviews, patient records, medical services and APIs.",
     stack: ["PHP", "Laravel", "MySQL"],
+  },
+  {
+    title: "Backend API Development",
+    description: "Secure and scalable REST APIs using ASP.NET Core, Python and PHP Laravel.",
+    stack: ["C#", "ASP.NET Core", "Python", "PHP", "Laravel 9+", "PostgreSQL","MySQL","MongoDB","Docker","Linux","Git"],
   },
 ];
 
