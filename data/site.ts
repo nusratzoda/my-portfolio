@@ -43,12 +43,12 @@ export const projects = [
 export const experiences = [
   {
     role: "Backend Developer",
-    company: "RIO",
-    date: "May 2023 - Dec 2024",
+    company: "JURA",
+    date: "Oct 2025 - Feb 2026",
     points: [
-      "Developed web applications using PHP and Laravel.",
-      "Built LMS modules for courses, grading and reviews.",
-      "Created medical system modules for patient records and services.",
+      "Developed backend modules for driver management.",
+      "Customized Moodle for internal training.",
+      "Integrated internal APIs and optimized workflows.",
     ],
   },
   {
@@ -63,12 +63,12 @@ export const experiences = [
   },
   {
     role: "Backend Developer",
-    company: "JURA",
-    date: "Oct 2025 - Feb 2026",
+    company: "RIO",
+    date: "May 2023 - Dec 2024",
     points: [
-      "Developed backend modules for driver management.",
-      "Customized Moodle for internal training.",
-      "Integrated internal APIs and optimized workflows.",
+      "Developed web applications using PHP and Laravel.",
+      "Built LMS modules for courses, grading and reviews.",
+      "Created medical system modules for patient records and services.",
     ],
   },
 ];
