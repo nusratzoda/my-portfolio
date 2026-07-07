@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Code2, Sparkles } from "lucide-react";
 import { personal } from "@/data/site";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -41,7 +42,7 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.15 }} className="glass rounded-3xl p-5 shadow-2xl sm:p-8">
+        {/* <motion.div initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.15 }} className="glass rounded-3xl p-5 shadow-2xl sm:p-8">
           <div className="mb-5 flex items-center gap-3">
             <div className="rounded-xl bg-sky-400/10 p-3 text-sky-300">
               <Code2 />
@@ -60,6 +61,71 @@ export default function Hero() {
             stack: ["C#", "ASP.NET Core", "Python", "PHP Laravel", "PostgreSQL","MySQL", "MongoDB", "Docker", "Linux", "Git"],
             values: ["Clean Code", "Security", "Scalability", "Maintainability", "Performance", "Reliability"],
           };`}</pre>
+        </motion.div> */}
+
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7, delay: 0.15 }}
+          className="flex justify-center"
+        >
+          <div className="relative">
+
+            {/* Blue glow */}
+            <div className="absolute -inset-3 rounded-3xl bg-sky-500/20 blur-2xl"></div>
+
+            {/* Card */}
+            <div className="glass relative rounded-3xl p-6">
+
+              <Image
+                src="/images/profile-placeholder.png"
+                alt="Profile"
+                width={420}
+                height={520}
+                className="rounded-3xl object-cover"
+                priority
+              />
+
+              <div className="mt-6 text-center">
+
+                <h3 className="text-2xl font-bold">
+                  Suhaib Matin
+                </h3>
+
+                <p className="mt-2 text-slate-400">
+                  Backend Engineer
+                </p>
+
+                <div className="mt-5 flex flex-wrap justify-center gap-2">
+
+                  <span className="rounded-full bg-sky-500/10 px-3 py-1 text-sm text-sky-300">
+                    C#
+                  </span>
+
+                  <span className="rounded-full bg-sky-500/10 px-3 py-1 text-sm text-sky-300">
+                    Python
+                  </span>
+
+                  <span className="rounded-full bg-sky-500/10 px-3 py-1 text-sm text-sky-300">
+                    php
+                  </span>
+
+                  <span className="rounded-full bg-sky-500/10 px-3 py-1 text-sm text-sky-300">
+                    .net
+                  </span>
+
+                  <span className="rounded-full bg-sky-500/10 px-3 py-1 text-sm text-sky-300">
+                    Laravel
+                  </span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
         </motion.div>
       </div>
     </section>
